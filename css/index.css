@@ -1,0 +1,232 @@
+﻿*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-family:microsoft yahei;
+	font-size:14px;
+	transition: all 0.5s;
+}
+a{
+	color:#111;
+}
+.clearfix::after{
+	content:"";
+	display:block;
+	height:0;
+	overflow:hidden;
+	clear:both;
+}
+
+/*以下为header*/
+.header{
+		float:left;
+		width:100%;
+		min-width:800px;
+		height:70px;
+		box-sizing: border-box;
+		border:1px solid #555
+}
+.logo{
+	float: left;
+	width: 20%;
+	
+}
+.header a{
+	display:block;
+	height:50px;
+	padding:10px 20px;
+	line-height:50px;
+	color:black;
+}
+.header a:hover{
+	color:red;
+}
+.logo a img{
+	height:100%;
+}
+.headerNavLeft{
+	float: left;
+	width: 30%;
+}
+.headerNavLeft ul li{
+	float:left;
+}
+.headerNavRight{
+	float:right;
+	width: 50%;
+}
+.headerNavRight ul{
+	float:right;
+	width: 70%;
+}
+.headerNavRight ul li{
+	float:left;
+	width: 25%;
+}
+.headerNavRight ul li a{
+	padding: 10px 0;
+	text-align: center;
+}
+.search{
+	float:left;
+	margin-top:25px;
+	border-bottom:1px solid #ccc;
+}
+.icon-search{
+	border:0;
+}
+.icon-search:hover{
+	cursor:pointer;
+}
+.subsearch{
+	border:0;
+}
+/*以下主体+导航*/
+.nav1{	float:left;
+	width:100%;
+	background:url(../images/bk.jpg) no-repeat;
+	background-size:100%;
+}
+.box{
+	position:relative;
+	width:80%;
+	height:490px;
+	margin:0 auto;
+}
+.navBackground{
+	display:block;
+	width:100%;
+	height:490px;
+	background:url(../images/57a801860001c34b12000460.jpg) no-repeat center;
+	background-size: cover;
+}
+.nav1 ul{
+	position:absolute;
+	left:0;
+	top:0;
+	width: 20%;
+	background:rgba(0,0,0,0.1);
+	filter: alpha(opacity=0);
+	z-index: 1;
+}
+.nav1 ul li{
+	width: 100%;
+}
+.nav1 ul li a{
+	display:block;
+	padding: 0 2em;
+	color:white;
+	line-height:70px;
+}
+.nav1 ul li a:hover{
+	background: rgba(0,0,0,0.1);
+	filter: alpha(opacity=0);
+}
+/*以下列表*/
+.course-list1,.course-list2{
+	width:80%;
+	margin:30px auto 0;
+}
+.course-list1-header,.course-list2-header{
+	width:100%;
+}
+.more{
+	float:right;
+	width:40px;
+	color:#888;
+}
+.course-list1-header h2,.course-list2-header h2{
+	float:left;
+	width:100px;
+	
+}
+.course-list1 ul,.course-list2 ul{
+	margin:auto;
+}
+.course-list1 ul li,.course-list2 ul li{
+	float:left;
+	box-sizing: border-box;
+	width: 19%;
+	margin: 0.5%;
+}
+.course{
+	position:relative;
+	display:block;
+	overflow: hidden;
+	height:200px;
+}
+.course-body{
+	position:absolute;
+	bottom:0;
+	left: 0;
+	width: 100%;
+	height:90px;
+	background:white;
+	border:1px solid rgba(100,100,100,1);
+	box-sizing: border-box;
+}
+.course:hover .course-body{
+	height: 150px;
+
+}
+.course-body h3,.course-body p{
+	margin:5px;
+	line-height: 1.5em;
+}
+.course-footer{
+	position:absolute;
+	left: 0;
+	bottom:0;
+	width:100%;
+	padding-top: 0.5em;
+	background: #fff;
+	z-index: 2;
+}
+.prise{
+	float:left;
+	margin-left:5px;
+	color:red;
+}
+.r{
+	float:right;
+	margin-right:5px;
+	color:green;
+}
+
+.python{
+	background:url(../images/57b13a3e0001bd5c05400300-360-202.jpg) no-repeat 100%;
+}
+.response{
+	background:url(../images/576b84c10001b1c005400300-360-202.jpg) no-repeat 100%;
+}
+.app{
+	background:url(../images/5784beee0001c31c05400300-360-202.jpg) no-repeat 100%;
+}
+.MySQL{
+	background:url(../images/5763761f0001c35e05400300-360-202.jpg) no-repeat 100%;
+}
+.Node{
+	background:url(../images/576376520001da3d05400300-360-202.jpg) no-repeat 100%;
+}
+
+.ssh1{
+	background:url(../images/57a1ca250001b2f206000338-228-128.jpg) no-repeat;
+	background-size:100%;
+}
+.php{
+	background:url(../images/57a2aa410001189006000338-228-128.jpg) no-repeat;
+	background-size:100%;
+}
+.android{
+	background:url(../images/5784a3310001c2e506000338-228-128.jpg) no-repeat;
+	background-size:100%;
+}
+.testerhome{
+	background:url(../images/57a993e30001681106000338.jpg) no-repeat;
+	background-size:100%;
+}
+.ssh2{
+	background:url(../images/57a1ca0a00016fcc06000338-228-128.jpg) no-repeat;
+	background-size:100%;
+}
