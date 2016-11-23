@@ -188,7 +188,7 @@ a{
 	margin-left:5px;
 	color:red;
 }
-.r{
+.students{
 	float:right;
 	margin-right:5px;
 	color:green;
@@ -229,4 +229,52 @@ a{
 .ssh2{
 	background:url(../images/57a1ca0a00016fcc06000338-228-128.jpg) no-repeat;
 	background-size:100%;
+}
+/*职业规划*/
+.careerPath{
+	width: 80%;
+	margin: 0 auto;
+}
+.web{
+	position: relative;
+	height: 30em;
+	background: url(../images/Web.png);
+	background-size: cover;
+}
+.top h3{
+	color: white;
+	font-size: 2em;
+}
+.bottom{
+	position: absolute;
+	bottom: 0;
+}
+.box_left{
+	float: left;
+	box-sizing: border-box;
+	width: 20%;
+	
+}
+.box_middle{
+	float: left;
+	box-sizing: border-box;
+	width: 60%;
+	padding: 1em;
+}
+.jq{
+	float: left;
+	width: 70%;
+	height: 15em;
+	background: #ccc;
+}
+.js{
+	float: left;
+	width: 30%;
+	height: 15em;
+	background: #cc0;
+}
+.box_right{
+	float: right;
+	box-sizing: border-box;
+	width: 20%;
 }
