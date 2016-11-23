@@ -261,9 +261,10 @@ a{
 }
 .box_left{
 	float: left;
-	box-sizing: border-box;
 	width: 20%;
-	
+}
+.box_left a{
+	color: #c03;
 }
 .box_middle{
 	float: left;
@@ -272,18 +273,22 @@ a{
 	width: 60%;
 }
 .jq{
+	display: flex;
 	float: left;
 	width: 65%;
 	height: 15em;
 	margin: 1em 1em 0 0;
 	background: #ccc;
+	justify-content: center;
+	align-items: center;
 }
 .jqApp{ 
 	background: url(../images/5833b3c40001d99104680172.jpg);
 	background-size: cover;
 }
-.jqApp p{
+.jq p{
 	display: inline-block;
+	color: white;
 }
 .jqCode{
 	background: url(../images/5833b4510001f91904680172.jpg);
@@ -304,7 +309,7 @@ a{
 	background: #eee;
 }
 .box_right ul{
-	margin-top: 1em;
+	margin: 1em 0 0 1em;
 }
 .tool{
 	background: url(../images/5784beee0001c31c05400300-360-202.jpg);
