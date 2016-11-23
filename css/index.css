@@ -154,7 +154,7 @@ a{
 	position:relative;
 	display:block;
 	overflow: hidden;
-	height:200px;
+	height:210px;
 }
 .course-body{
 	position:absolute;
@@ -233,21 +233,31 @@ a{
 /*职业规划*/
 .careerPath{
 	width: 80%;
+	height: 30em;
 	margin: 0 auto;
 }
 .web{
 	position: relative;
-	height: 30em;
+	height: 31em;
+	margin: 1em 1em 0 0;
 	background: url(../images/Web.png);
 	background-size: cover;
 }
 .top h3{
+	padding: 2em 0 0 1em;
 	color: white;
 	font-size: 2em;
+}
+.top p a{
+	display: block;
+	padding: 0.5em 0 0 1.5em;
+	font-size: 1.2em;
+	color: white;
 }
 .bottom{
 	position: absolute;
 	bottom: 0;
+	padding: 1.5em;
 }
 .box_left{
 	float: left;
@@ -258,23 +268,47 @@ a{
 .box_middle{
 	float: left;
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	width: 60%;
-	padding: 1em;
 }
 .jq{
 	float: left;
-	width: 70%;
+	width: 65%;
 	height: 15em;
+	margin: 1em 1em 0 0;
 	background: #ccc;
+}
+.jqApp{ 
+	background: url(../images/5833b3c40001d99104680172.jpg);
+	background-size: cover;
+}
+.jqApp p{
+	display: inline-block;
+}
+.jqCode{
+	background: url(../images/5833b4510001f91904680172.jpg);
+	background-size: cover;
 }
 .js{
 	float: left;
 	width: 30%;
 	height: 15em;
+	margin: 1em 1em 0 0;
 	background: #cc0;
 }
 .box_right{
 	float: right;
-	box-sizing: border-box;
 	width: 20%;
+	height: 31em;
+	margin: 1em 0 0 0;
+	background: #eee;
+}
+.box_right ul{
+	margin-top: 1em;
+}
+.tool{
+	background: url(../images/5784beee0001c31c05400300-360-202.jpg);
+}
+.ajax{
+	background: url(../images/576b84c10001b1c005400300-360-202.jpg);
 }
