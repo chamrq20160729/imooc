@@ -292,7 +292,7 @@ a{
 	background: url(../images/5833b3c40001d99104680172.jpg);
 	background-size: cover;
 }
-.jq p{
+.jq a{
 	display: inline-block;
 	color: white;
 }
@@ -332,4 +332,30 @@ a{
 }
 .box_left .java .bottom a{
 	color: #08c;
+}
+.javapw{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15em;
+	margin: 1em 1em 0 0;
+	background: url(../images/5833b5cd00013a8907120172.jpg);
+	background-size: cover;
+}
+.javapw a{
+	color: white;
+}
+.java1{
+	background: url(../images/548a67400001029e06000338-228-128.jpg);
+}
+.java2{
+	background: url(../images/54af7a6d000164df06000338-228-128.jpg);
+}
+.java3{
+	background: url(../images/5763761f0001c35e05400300-360-202.jpg);
+}
+.java1,.java2,.java3{
+	float: left;
+	width: 31.4%;
+	margin: 1em 1em 0 0;
 }
