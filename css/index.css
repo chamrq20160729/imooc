@@ -259,6 +259,12 @@ a{
 	bottom: 0;
 	padding: 1.5em;
 }
+.web a:hover{
+	text-decoration: underline;
+}
+.top a:hover span{
+	right: 0.5em;
+}
 .box_left{
 	float: left;
 	width: 20%;
@@ -316,4 +322,14 @@ a{
 }
 .ajax{
 	background: url(../images/576b84c10001b1c005400300-360-202.jpg);
+}
+.java{
+	position: relative;
+	height: 31em;
+	margin: 1em 1em 0 0;
+	background: url(../images/Java.png);
+	background-size: cover;
+}
+.box_left .java .bottom a{
+	color: #08c;
 }
