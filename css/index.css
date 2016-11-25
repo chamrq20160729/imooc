@@ -362,3 +362,11 @@ a{
 .java4{
 	background: url(../images/570360620001390f06000338-228-128.jpg);
 }
+.footer a{
+	display: block;
+}
+.footer-sns a{
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/idx-btm.png);
+}
