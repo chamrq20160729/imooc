@@ -365,7 +365,7 @@ a{
 .footer a{
 	display: block;
 }
-.footer-sns a{
+.footer_sns a{
 	width: 32px;
 	height: 32px;
 	background-image: url(../images/idx-btm.png);
