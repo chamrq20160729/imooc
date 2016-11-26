@@ -368,5 +368,30 @@ a{
 .footer_sns a{
 	width: 32px;
 	height: 32px;
+	transition: 0s;
 	background-image: url(../images/idx-btm.png);
+}
+.ten{
+	background-position: -104px -221px;
+}
+.zone{
+	background-position: -156px -221px;
+}
+.wechat{
+	background-position: -52px -221px;
+}
+.sina{
+	background-position: 0 -221px;
+}
+.ten:hover{
+	background-position: -104px -262px;
+}
+.zone:hover{
+	background-position: -156px -262px;
+}
+.wechat:hover{
+	background-position: -52px -262px;
+}
+.sina:hover{
+	background-position: 0 -262px;
 }
